@@ -3,15 +3,15 @@ var app = builder.Build();
 
 app.MapGet("/", () =>
 {
-    string name = "Карамышев Максим";
-    string group = "Группа 1В";
-    string description = "Это пример страницы с информацией о пользователе.";
+    string name = "РљР°СЂР°РјС‹С€РµРІ РњР°РєСЃРёРј";
+    string group = "Р“СЂСѓРїРїР° 1Р’";
+    string description = "Р­С‚Рѕ РїСЂРёРјРµСЂ СЃС‚СЂР°РЅРёС†С‹ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ.";
 
     string msg = $@"
         <html>
             <head>
                 <meta charset='UTF-8'>
-                <title>Информация о пользователе</title>
+                <title>РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ</title>
                 <style>
                     body {{ font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }}
                     h1 {{ color: #2c3e50; }}
@@ -30,12 +30,12 @@ app.MapGet("/", () =>
 
 app.MapGet("/name", () =>
 {
-    string name = "Карамышев Максим";
+    string name = "РљР°СЂР°РјС‹С€РµРІ РњР°РєСЃРёРј";
     string msg = $@"
         <html>
             <head>
                 <meta charset='UTF-8'>
-                <title>Имя пользователя</title>
+                <title>РРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ</title>
                 <style>
                     body {{ font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }}
                     h1 {{ color: #2c3e50; }}
@@ -50,12 +50,12 @@ app.MapGet("/name", () =>
 
 app.MapGet("/group", () =>
 {
-    string group = "Группа 1В";
+    string group = "Р“СЂСѓРїРїР° 1Р’";
     string msg = $@"
         <html>
             <head>
                 <meta charset='UTF-8'>
-                <title>Номер группы</title>
+                <title>РќРѕРјРµСЂ РіСЂСѓРїРїС‹</title>
                 <style>
                     body {{ font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }}
                     h1 {{ color: #2c3e50; }}
@@ -71,12 +71,12 @@ app.MapGet("/group", () =>
 
 app.MapGet("/about", () =>
 {
-    string description = "Это пример страницы с информацией о пользователе.";
+    string description = "Р­С‚Рѕ РїСЂРёРјРµСЂ СЃС‚СЂР°РЅРёС†С‹ СЃ РёРЅС„РѕСЂРјР°С†РёРµР№ Рѕ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ.";
     string msg = $@"
         <html>
             <head>
                 <meta charset='UTF-8'>
-                <title>О пользователе</title>
+                <title>Рћ РїРѕР»СЊР·РѕРІР°С‚РµР»Рµ</title>
                 <style>
                     body {{ font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }}
                     p {{ color: #7f8c8d; }}
